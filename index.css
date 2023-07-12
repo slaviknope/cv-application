@@ -39,9 +39,11 @@ header nav p {
     margin-right: 30px;
 
 }
-.preview{
+
+.preview {
     margin-top: 120px;
 }
+
 .preview .info {
     display: flex;
     justify-content: space-between;
@@ -67,10 +69,70 @@ header nav p {
     letter-spacing: -0.96px;
     font: 400 32px DM Sans;
 }
-.img-arrow{
-    background-image: url(./headline.png);
-    height: 40px;
-    width: 34px;
-    
-    
+
+svg {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+main .bio h1 {
+    color: var(--main-black, #181717);
+
+    line-height: 121.5%;
+    letter-spacing: -0.72px;
+    font: 500 24px Dm Sans;
+    display: flex;
+    width: 326.214px;
+    height: 19px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+
+main .bio p {
+    display: flex;
+    width: 356px;
+    height: 169px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: 400 22px DM Sans;
+    line-height: 121.5%;
+    letter-spacing: -0.66px;
+    color: var(--main-black, #181717);
+    margin-top: 40px;
+}
+
+main .bio .limpid {
+    display: flex;
+    width: 315.34px;
+    height: 35px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: 400 22px DM Sans;
+    color: var(--main-gray, #606060);
+    line-height: 121.5%;
+    letter-spacing: -0.66px;
+}
+main .bio .emphasized {
+    display: flex;
+width: 326.214px;
+height: 20px;
+flex-direction: column;
+flex-shrink: 0;
+font: 500 22px DM Sans;
+color: var(--main-black, #181717);
+line-height: 121.5%;
+letter-spacing: -0.66px;
+text-decoration-line: underline;
+}
+main .bio .rectangle{
+    width: 900px;
+height: 350px;
+flex-shrink: 0;
+background: var(--main-gray, #606060);
+display: flex;
+
+
+
+
 }
