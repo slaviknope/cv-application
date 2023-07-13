@@ -42,6 +42,7 @@ header nav p {
 
 .preview {
     margin-top: 120px;
+    border-bottom
 }
 
 .preview .info {
@@ -73,6 +74,11 @@ header nav p {
 svg {
     margin-top: 100px;
     margin-left: 80px;
+}
+
+.bio {
+    display: flex;
+
 }
 
 main .bio h1 {
@@ -113,26 +119,34 @@ main .bio .limpid {
     line-height: 121.5%;
     letter-spacing: -0.66px;
 }
+
 main .bio .emphasized {
     display: flex;
-width: 326.214px;
-height: 20px;
-flex-direction: column;
-flex-shrink: 0;
-font: 500 22px DM Sans;
-color: var(--main-black, #181717);
-line-height: 121.5%;
-letter-spacing: -0.66px;
-text-decoration-line: underline;
+    width: 326.214px;
+    height: 20px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: 500 22px DM Sans;
+    color: var(--main-black, #181717);
+    line-height: 121.5%;
+    letter-spacing: -0.66px;
+    text-decoration-line: underline;
+
 }
-main .bio .rectangle{
+
+main .bio .rectangle {
     width: 900px;
-height: 350px;
-flex-shrink: 0;
-background: var(--main-gray, #606060);
-display: flex;
+    height: 350px;
+    flex-shrink: 0;
+    background: var(--main-gray, #606060);
+    margin-left: 450px;
+}
 
-
-
-
+main .bio .line {
+    width: 1115.057px;
+    height: 1.5px; 
+    background: #181717;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
 }
