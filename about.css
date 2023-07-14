@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+    height: 10000px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font: 500 50px Dm Sans;
+    line-height: 97.2%;
+
+    letter-spacing: -1.5px;
+    color: var(--main-black, #181717);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav p {
+    color: var(--main-black, #181717);
+    line-height: 120%;
+    letter-spacing: -0.66px;
+    font: 500 22px DM Sans;
+
+}
+
+header nav p:hover {
+    text-decoration: underline;
+
+}
+
+.about {
+    margin-top: 147px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about .info .left {
+    width: 575px;
+
+}
+
+.about .info .right {
+    width: 450px;
+    height: 405px;
+    background: var(--main-gray, #606060);
+
+}
+
+.about .info .left h1 {
+    font: 500 60px dm Sans;
+    color: var(--main-black, #181717);
+}
+
+.about .info .left p {
+    color: var(--main-gray, #606060);
+    font: 400 24px Dm Sans;
+    margin-top: 47px;
+}
+
+.about .skills div {
+    display: flex;
+
+}
+
+.about .skills h2 {
+    color: var(--main-black, #181717);
+
+    text-decoration-line: underline;
+    font: 500 22px Dm Sans;
+    margin-right: 60px;
+    margin-top: 86px;
+
+}
+
+.about .skills p {
+    color: var(--main-black, #181717);
+    font: 400 20px Dm Sans;
+    width: 440px;
+    margin-top: 86px;
+}
+
+.about .line {
+    height: 1px;
+    background-color: #181717;
+    margin-top: 150px;
+}
+
+.about .email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .email p {
+    color: var(--main-black, #181717);
+    font: 400 32px Dm Sans;
+}
+
+.about .email svg {
+    margin-top: 110px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .name {
+    color: #2429AF;
+    font: 500 22px Dm Sans;
+    margin-top: 135px;
+}
+
+footer p {
+    color: var(--main-black, #181717);
+    font: 500 22px Dm Sans;
+    margin-top: 135px;
+}
